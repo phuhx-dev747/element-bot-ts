@@ -31,6 +31,7 @@ function dakwacoCrawService(start, end) {
                     wardCode: data.ward_code
                 });
                 yield (0, database_1.insertData)(model);
+                console.log(`KH ${i}: Data inserted successfully`);
             }
             else {
                 console.log(`KH ${i}: No data found`);

@@ -1,7 +1,7 @@
 import dakwacoCrawService from "./services/dakwaco-craw";
 
   async function main() {
-  await dakwacoCrawService(17000003, 17000004);
+  await dakwacoCrawService(10602133, 10620133);
 
   console.log("Crawling completed.");
 }

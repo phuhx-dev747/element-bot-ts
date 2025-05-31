@@ -18,7 +18,7 @@ export default async function dakwacoCrawService(start: number, end: number) {
         wardCode: data.ward_code
       });
       await insertData(model);
-      
+      console.log(`KH ${i}: Data inserted successfully`);
     } else {
       console.log(`KH ${i}: No data found`);
     }

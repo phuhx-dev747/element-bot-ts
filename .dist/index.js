@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const dakwaco_craw_1 = __importDefault(require("./services/dakwaco-craw"));
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        yield (0, dakwaco_craw_1.default)(17000003, 17000004);
+        yield (0, dakwaco_craw_1.default)(10602133, 10620133);
         console.log("Crawling completed.");
     });
 }
